@@ -53,7 +53,8 @@ a bad OTP), the verification worked as expected. Compare it to the next example:
 
 [source, sh]
 ----
-user@val:~$ ykclient --url "http://127.0.0.1/wsapi/2.0/verify?id=%d&otp=%s" --apikey not_a_real_secret 3 cccccccccccdutfiljtbignggckhgdtfigbdricugdrvInput:
+user@val:~$ ykclient --url "http://127.0.0.1/wsapi/2.0/verify?id=%d&otp=%s" --apikey not_a_real_secret 3 cccccccccccdutfiljtbignggckhgdtfigbdricugdrv
+Input:
   validation URL: http://127.0.0.1/wsapi/2.0/verify?id=%d&otp=%s
   client id: 3
   token: cccccccccccdutfiljtbignggckhgdtfigbdricugdrv
